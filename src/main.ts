@@ -26,11 +26,11 @@ function main() {
   const opts = program.opts();
 
   const app = open(file, !!opts.perf);
-  if (opts.s) {
+  if (opts.show) {
     console.log(app.build().show());
     return;
   }
-  if (opts.g) {
+  if (opts.graph) {
     console.log(app.build().transform().show());
     return;
   }

@@ -1,0 +1,5 @@
+var x = read(), y = read();
+var a = (x + y) / x;
+var b = (x + y) % x;
+write(a);
+write(b)
